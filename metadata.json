@@ -1,0 +1,6 @@
+{
+  "name": "潮汕厝角头3D全息手势交互科普",
+  "description": "基于MediaPipe手势视觉识别与Three.js的3D全息潮汕厝角头金木水火土五行建筑科普交互系统",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

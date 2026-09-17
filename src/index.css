@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* Custom Scrollbar for Sophisticated Dark Theme */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(12, 12, 12, 0.8);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.25);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 175, 55, 0.5);
+}
+
+/* User Selection Prevention & Sophisticated Dark Base */
+body {
+  user-select: none;
+  -webkit-user-select: none;
+  background-color: #0c0c0c;
+  color: #e7e5e4;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Noto Serif SC", serif;
+}
+
+/* Single Hand Fist Target Highlight */
+.gesture-hover-target {
+  outline: 2px solid #d4af37 !important;
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.45) !important;
+  transform: scale(1.03) !important;
+  transition: transform 0.15s ease, box-shadow 0.15s ease !important;
+}
+
+.gesture-fist-charging {
+  outline: 2.5px solid #fbbf24 !important;
+  box-shadow: 0 0 30px rgba(251, 191, 36, 0.7) !important;
+  transform: scale(1.05) !important;
+}
+
